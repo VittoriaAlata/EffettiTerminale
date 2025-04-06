@@ -3,10 +3,8 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### m2 ###
-.m2/
-
 ### IntelliJ IDEA ###
+.m2/settings.xml
 .idea/
 *.idea/
 *.iws
