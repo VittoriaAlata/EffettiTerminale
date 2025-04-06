@@ -14,12 +14,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <distributionManagement>
+<distributionManagement>
    <repository>
      <id>github</id>
-     <name>EffettiTerminale Package</name>
+     <name>GitHub VittoriaAlata Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/VittoriaAlata/EffettiTerminale</url>
    </repository>
-    </distributionManagement>
+</distributionManagement>
 
 </project>
