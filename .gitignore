@@ -3,6 +3,9 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+### m2 ###
+.m2/
+
 ### IntelliJ IDEA ###
 .idea/
 *.idea/
