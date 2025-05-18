@@ -3,10 +3,6 @@ package com.github.vittoriaalata.effettiterminale;
 import static com.github.vittoriaalata.effettiterminale.Animazioni.*;
 
 public class ScrollingText {
-    public static void main(String[] args) throws InterruptedException {
-        ReAnimazione(CaricamentoPuntini, AnimazionePuntini, 500, 100);
-    }
-
     private static void ReAnimazione(int LunghezzaCarattereAnimato, String Animazione, int MillisAnimDelay, int Ripetizioni) throws InterruptedException {
         for (int i = 0; i < Ripetizioni; i++) {
                 AnimazioneCaricamento(LunghezzaCarattereAnimato, Animazione, MillisAnimDelay);
