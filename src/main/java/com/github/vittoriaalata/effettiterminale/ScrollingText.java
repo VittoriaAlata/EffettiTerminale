@@ -4,7 +4,7 @@ import static com.github.vittoriaalata.effettiterminale.Animazioni.*;
 
 public class ScrollingText {
     public static void main(String[] args) throws InterruptedException {
-        ReAnimazione(CaricamentoBarra, AnimazioneBarra, 500, 100);
+        ReAnimazione(CaricamentoPuntini, AnimazionePuntini, 500, 100);
     }
 
     private static void ReAnimazione(int LunghezzaCarattereAnimato, String Animazione, int MillisAnimDelay, int Ripetizioni) throws InterruptedException {
